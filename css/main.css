@@ -97,7 +97,185 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    padding: 0 1em;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 400%;
+    font-family: serif;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 250%;
+    font-family: serif;
+    text-align: center;
+}
+
+section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.header-photo {
+    width: 100%;
+}
+
+.main-heading {
+    color: #fff;
+    text-align: center;
+    background-color: rgb(22, 43, 88);
+    padding: .5em;
+}
+
+.main-heading p {
+    font-size: 150%;
+    font-family: serif;
+    line-height: .05em;
+}
+
+.main-nav {
+    text-align: center;
+    background-color: rgb(22, 43, 88);
+    padding: 0.15em;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #222;
+    background-color: #fff;
+    padding: 1px 5px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+}
+
+.main-nav li {
+    font-size: 130%;
+    display: inline-block;
+    margin: 1px 30px;
+    font-family: serif;
+}
+
+.top-cabins {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: auto;
+    position: relative;
+    padding: 1em;
+}
+
+.cabin-pics {
+    border-radius: 2.5%;
+    display: block;
+    position: relative;
+    z-index: -10;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+}
+
+.cabin-info {
+    position: absolute;
+    padding: .5em;
+    color: #fff;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1em;
+    font-size: 160%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cabin-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.view-more {
+    font-family: serif;
+    border: 3px solid rgb(84, 124, 199);
+    clear: both;
+    padding: 0.5em;
+    width: 25%;
+    margin: auto;
+    font-size: 160%;
+}
+
+.view-more a {
+    text-decoration: none;
+    color: #000;
+}
+
+.about-us {
+    max-width: 800px;
+    margin: auto;
+}
+
+.activities {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    padding: 1em;
+}
+
+.activity-pics {
+    border-radius: 2.5%;
+    display: block;
+    position: relative;
+    z-index: -10;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+}
+
+.activity-info {
+    position: absolute;
+    padding: .5em;
+    color: #fff;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 160%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.testimonials {
+    clear: both;
+}
+
+footer {
+    background-color: rgb(22, 43, 88);
+    color: #fff;
+}
 
 
 
