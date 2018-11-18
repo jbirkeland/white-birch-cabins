@@ -127,9 +127,18 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-family: serif;
+}
+
 section {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+a {
+    color: rgb(42, 82, 168);
+    font-weight: bold;
 }
 
 .header-photo {
@@ -195,6 +204,7 @@ section {
     width: 75%;
     height: 75%;
     margin: auto;
+    opacity: 0.8;
 }
 
 .cabin-info {
@@ -218,7 +228,8 @@ section {
 
 .view-more {
     font-family: serif;
-    border: 3px solid rgb(84, 124, 199);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(42, 82, 168);
     clear: both;
     padding: 0.5em;
     width: 25%;
@@ -232,8 +243,10 @@ section {
 }
 
 .about-us {
-    max-width: 800px;
+    padding: 1em;
     margin: auto;
+    border: 2px solid rgb(42, 82, 168);
+    border-radius: 2.5%;
 }
 
 .activities {
@@ -270,11 +283,46 @@ section {
 
 .testimonials {
     clear: both;
+    border: 2px solid rgb(42, 82, 168);
+    border-radius: 2.5%;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+.guest-quote {
+    width: 80%;
+    margin: auto;
 }
 
 footer {
-    background-color: rgb(22, 43, 88);
-    color: #fff;
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 3em;
+    margin: auto;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 160%;
+}
+
+footer h3 {
+    font-size: 130%;
+}
+
+.contact-info ul {
+    list-style-type: none;
+}
+
+.map {
+    padding: .5em;
+    width: 35%;
+    height: 35%;
+}
+
+.mailing-list p {
+    line-height: 1em;
 }
 
 
