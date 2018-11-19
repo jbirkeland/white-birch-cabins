@@ -107,6 +107,7 @@ html {
 body {
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5em;
+    color: rgb(35, 65, 129);
     max-width: 1000px;
     min-width: 500px;
     margin: auto;
@@ -143,6 +144,7 @@ a {
 
 .header-photo {
     width: 100%;
+    padding: 1em 0;
 }
 
 .main-heading {
@@ -198,13 +200,12 @@ a {
 
 .cabin-pics {
     border-radius: 2.5%;
-    display: block;
     position: relative;
     z-index: -10;
     width: 75%;
     height: 75%;
+    opacity: 0.75;
     margin: auto;
-    opacity: 0.8;
 }
 
 .cabin-info {
@@ -214,9 +215,9 @@ a {
     font-family: serif;
     font-weight: bold;
     text-align: center;
-    line-height: 1em;
+    line-height: 1.5em;
     font-size: 160%;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -239,7 +240,7 @@ a {
 
 .view-more a {
     text-decoration: none;
-    color: #000;
+    color: rgb(35, 65, 129);
 }
 
 .about-us {
@@ -305,6 +306,7 @@ footer {
 
 footer h2 {
     font-size: 160%;
+    padding-top: 2em;
 }
 
 footer h3 {
@@ -325,6 +327,11 @@ footer h3 {
     line-height: 1em;
 }
 
+.copyright {
+    margin: auto;
+    padding-top: 2em;
+    text-align: center;
+}
 
 
 
