@@ -333,6 +333,24 @@ footer h3 {
     text-align: center;
 }
 
+.submit-open {
+    background-color: rgb(22, 43, 88);
+    color: #fff;
+    font-family: serif;
+    font-size: 300%;
+    position: relative;
+    width: 75%;
+    padding: 2em;
+    margin: auto;
+}
+
+.submit-open .close-icon {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+}
+
 
 
 
